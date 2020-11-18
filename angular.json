@@ -11,6 +11,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "rxjs-compat"
+            ],
             "outputPath": "dist/bekhteff-1",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -27,6 +30,7 @@
               "src/assets/css/nucleo-icons.css"
             ],
             "scripts": []
+            
           },
           "configurations": {
             "production": {
