@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS bekhtef ;
+CREATE DATABASE bekhtef ;
+USE bekhtef ;
